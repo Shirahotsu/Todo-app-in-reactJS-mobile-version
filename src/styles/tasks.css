@@ -1,0 +1,8 @@
+.tasks-appear {
+  opacity: 0.01;
+}
+
+.tasks-appear.tasks-appear-active {
+  opacity: 1;
+  transition: .3s ease-in;
+}

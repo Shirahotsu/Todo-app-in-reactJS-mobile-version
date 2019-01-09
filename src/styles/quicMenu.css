@@ -1,0 +1,42 @@
+.quickMenuView{
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.quickMenuShow{
+}
+
+.btn{
+  background-color: transparent;
+  border: none;
+  padding: 20px 50px;
+}
+i{
+  font-size: 2.5em !important;
+}
+.done{
+  color: #009688;
+}
+.delete{
+  color: #D32F2F;
+}
+
+
+.example-appear {
+  opacity: 0.01;
+  transform: translateY(120%);
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: .3s ease-in;
+}
